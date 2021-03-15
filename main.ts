@@ -23,3 +23,4 @@ controller.moveSprite(mySprite, 150, 150)
 tiles.setTilemap(tilemap`level1`)
 scene.cameraFollowSprite(mySprite)
 tiles.placeOnRandomTile(mySprite, sprites.castle.tileGrass3)
+mySprite.ay = 150
